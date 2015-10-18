@@ -47,6 +47,10 @@ function mdYHM {
 function mdYHMS {
     date "+%m-%d-%Y%n%H:%M:%S"
 }
+# Text, Month, Day, Year, Hour, Minute, Second.
+function mdYHMS-text {
+    date "+DATE: %m-%d-%Y%nTIME: %H:%M:%S"
+}
 # One second counter for 10 seconds.
 function one_sec_counter_for_10 {
     for i in `seq 1 10`;
