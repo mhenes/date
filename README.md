@@ -11,11 +11,8 @@ Copy "date.sh" to desired location.
 
 
 Directions for calling it from another script. 
-
 Also written in the script comments.
-
 Uncomment hashtag to write to file. 
-
 Change function to output different format.
 
 mdYHMS # > date.txt
